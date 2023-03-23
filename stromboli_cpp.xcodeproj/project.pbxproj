@@ -1,0 +1,604 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C1999E329C26F0800225DDF /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C1999E229C26F0800225DDF /* main.cpp */; };
+		5C199B8829C4C77600225DDF /* nxsassumptionsblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B4329C4C77000225DDF /* nxsassumptionsblock.cpp */; };
+		5C199B8929C4C77600225DDF /* BeagleBenchmark.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B4429C4C77000225DDF /* BeagleBenchmark.cpp */; };
+		5C199B8A29C4C77600225DDF /* nxsstring.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B4529C4C77000225DDF /* nxsstring.cpp */; };
+		5C199B8B29C4C77600225DDF /* nxscharactersblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B4629C4C77000225DDF /* nxscharactersblock.cpp */; };
+		5C199B8C29C4C77600225DDF /* nxsdatablock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B4C29C4C77100225DDF /* nxsdatablock.cpp */; };
+		5C199B8D29C4C77600225DDF /* nxspublicblocks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B4E29C4C77100225DDF /* nxspublicblocks.cpp */; };
+		5C199B8E29C4C77600225DDF /* nxstreesblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B5429C4C77100225DDF /* nxstreesblock.cpp */; };
+		5C199B8F29C4C77600225DDF /* nxsmultiformat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B5729C4C77200225DDF /* nxsmultiformat.cpp */; };
+		5C199B9029C4C77600225DDF /* Plugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B5829C4C77200225DDF /* Plugin.cpp */; };
+		5C199B9129C4C77600225DDF /* nxstaxaassociationblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B5929C4C77200225DDF /* nxstaxaassociationblock.cpp */; };
+		5C199B9229C4C77600225DDF /* UnixSharedLibrary.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B5C29C4C77200225DDF /* UnixSharedLibrary.cpp */; };
+		5C199B9329C4C77600225DDF /* nxsexception.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B6129C4C77300225DDF /* nxsexception.cpp */; };
+		5C199B9429C4C77600225DDF /* BeagleCPUPlugin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B6529C4C77300225DDF /* BeagleCPUPlugin.cpp */; };
+		5C199B9529C4C77600225DDF /* nxsblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B6B29C4C77300225DDF /* nxsblock.cpp */; };
+		5C199B9629C4C77600225DDF /* linalg.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B6C29C4C77400225DDF /* linalg.cpp */; };
+		5C199B9729C4C77600225DDF /* nxstoken.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B6E29C4C77400225DDF /* nxstoken.cpp */; };
+		5C199B9829C4C77600225DDF /* nxstaxablock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B7229C4C77400225DDF /* nxstaxablock.cpp */; };
+		5C199B9929C4C77600225DDF /* nxsunalignedblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B7829C4C77500225DDF /* nxsunalignedblock.cpp */; };
+		5C199B9A29C4C77600225DDF /* nxsdistancesblock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B7F29C4C77500225DDF /* nxsdistancesblock.cpp */; };
+		5C199B9B29C4C77600225DDF /* nxscxxdiscretematrix.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B8029C4C77500225DDF /* nxscxxdiscretematrix.cpp */; };
+		5C199B9C29C4C77600225DDF /* beagle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B8229C4C77500225DDF /* beagle.cpp */; };
+		5C199B9D29C4C77600225DDF /* nxsreader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B8629C4C77600225DDF /* nxsreader.cpp */; };
+		5C199B9E29C4C77600225DDF /* nxssetreader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199B8729C4C77600225DDF /* nxssetreader.cpp */; };
+		5C199C1829C4E09500225DDF /* libR.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C199C1729C4E09500225DDF /* libR.dylib */; };
+		5C199C1929C4E09500225DDF /* libR.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5C199C1729C4E09500225DDF /* libR.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5C199C1C29C4E0E800225DDF /* libRInside.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C199C1B29C4E0E800225DDF /* libRInside.dylib */; };
+		5C199C1D29C4E0E800225DDF /* libRInside.dylib in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5C199C1B29C4E0E800225DDF /* libRInside.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5C199C2329C4E18B00225DDF /* test_tree_model.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 5C199C2129C4E18B00225DDF /* test_tree_model.cpp */; };
+		5C199C2929CBCEE500225DDF /* libhmsbeagle-cpu.40.so in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C199C2829CBCEE500225DDF /* libhmsbeagle-cpu.40.so */; };
+		5C199C2A29CBCEE500225DDF /* libhmsbeagle-cpu.40.so in Embed Libraries */ = {isa = PBXBuildFile; fileRef = 5C199C2829CBCEE500225DDF /* libhmsbeagle-cpu.40.so */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5C199C2B29CBCF4E00225DDF /* libhmsbeagle-cpu.40.so in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C199C2829CBCEE500225DDF /* libhmsbeagle-cpu.40.so */; };
+		5C199C2C29CBCF6400225DDF /* libhmsbeagle-cpu.40.so in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C199C2829CBCEE500225DDF /* libhmsbeagle-cpu.40.so */; };
+		5C199C2D29CBCF6400225DDF /* libhmsbeagle-cpu.40.so in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C199C2829CBCEE500225DDF /* libhmsbeagle-cpu.40.so */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C1999DD29C26F0800225DDF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		5C199C1A29C4E09500225DDF /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5C199C2A29CBCEE500225DDF /* libhmsbeagle-cpu.40.so in Embed Libraries */,
+				5C199C1929C4E09500225DDF /* libR.dylib in Embed Libraries */,
+				5C199C1D29C4E0E800225DDF /* libRInside.dylib in Embed Libraries */,
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C1999DF29C26F0800225DDF /* stromboli_cpp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = stromboli_cpp; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C1999E229C26F0800225DDF /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		5C1999FD29C27B6800225DDF /* model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = model.h; sourceTree = "<group>"; };
+		5C1999FE29C27B6800225DDF /* output_manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = output_manager.h; sourceTree = "<group>"; };
+		5C1999FF29C27B6800225DDF /* node.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = node.h; sourceTree = "<group>"; };
+		5C199A0029C27B6900225DDF /* likelihood.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = likelihood.h; sourceTree = "<group>"; };
+		5C199A0129C27B6900225DDF /* tree_updater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree_updater.h; sourceTree = "<group>"; };
+		5C199A0229C27B6900225DDF /* tree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree.h; sourceTree = "<group>"; };
+		5C199A0329C27B6900225DDF /* tree_manip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree_manip.h; sourceTree = "<group>"; };
+		5C199A0429C27B6900225DDF /* data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = data.h; sourceTree = "<group>"; };
+		5C199A0529C27B6900225DDF /* xstrom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = xstrom.h; sourceTree = "<group>"; };
+		5C199A0629C27B6900225DDF /* chain.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = chain.h; sourceTree = "<group>"; };
+		5C199A0729C27B6900225DDF /* tree_length_updater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree_length_updater.h; sourceTree = "<group>"; };
+		5C199A0829C27B6900225DDF /* lot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = lot.h; sourceTree = "<group>"; };
+		5C199A0929C27B6900225DDF /* gamma_shape_updater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = gamma_shape_updater.h; sourceTree = "<group>"; };
+		5C199A0A29C27B6900225DDF /* exchangeability_updater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = exchangeability_updater.h; sourceTree = "<group>"; };
+		5C199A0B29C27B6900225DDF /* dirichlet_updater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = dirichlet_updater.h; sourceTree = "<group>"; };
+		5C199A0C29C27B6900225DDF /* tree_summary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tree_summary.h; sourceTree = "<group>"; };
+		5C199A0D29C27B6900225DDF /* updater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = updater.h; sourceTree = "<group>"; };
+		5C199A0E29C27B6900225DDF /* pwk.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = pwk.h; sourceTree = "<group>"; };
+		5C199A0F29C27B6900225DDF /* statefreq_updater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = statefreq_updater.h; sourceTree = "<group>"; };
+		5C199A1029C27B6900225DDF /* split.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = split.h; sourceTree = "<group>"; };
+		5C199B4129C4C77000225DDF /* nxsreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsreader.h; sourceTree = "<group>"; };
+		5C199B4229C4C77000225DDF /* nxsassumptionsblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsassumptionsblock.h; sourceTree = "<group>"; };
+		5C199B4329C4C77000225DDF /* nxsassumptionsblock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxsassumptionsblock.cpp; sourceTree = "<group>"; };
+		5C199B4429C4C77000225DDF /* BeagleBenchmark.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeagleBenchmark.cpp; sourceTree = "<group>"; };
+		5C199B4529C4C77000225DDF /* nxsstring.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxsstring.cpp; sourceTree = "<group>"; };
+		5C199B4629C4C77000225DDF /* nxscharactersblock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxscharactersblock.cpp; sourceTree = "<group>"; };
+		5C199B4729C4C77000225DDF /* nxscdiscretematrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxscdiscretematrix.h; sourceTree = "<group>"; };
+		5C199B4829C4C77000225DDF /* EigenDecompositionSquare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EigenDecompositionSquare.h; sourceTree = "<group>"; };
+		5C199B4929C4C77000225DDF /* sse2neon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = sse2neon.h; sourceTree = "<group>"; };
+		5C199B4A29C4C77000225DDF /* Plugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Plugin.h; sourceTree = "<group>"; };
+		5C199B4B29C4C77100225DDF /* UnixSharedLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UnixSharedLibrary.h; sourceTree = "<group>"; };
+		5C199B4C29C4C77100225DDF /* nxsdatablock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxsdatablock.cpp; sourceTree = "<group>"; };
+		5C199B4D29C4C77100225DDF /* ncl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ncl.h; sourceTree = "<group>"; };
+		5C199B4E29C4C77100225DDF /* nxspublicblocks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxspublicblocks.cpp; sourceTree = "<group>"; };
+		5C199B4F29C4C77100225DDF /* BeagleCPU4StateImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BeagleCPU4StateImpl.hpp; sourceTree = "<group>"; };
+		5C199B5029C4C77100225DDF /* nxsdistancesblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsdistancesblock.h; sourceTree = "<group>"; };
+		5C199B5129C4C77100225DDF /* nxstaxaassociationblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxstaxaassociationblock.h; sourceTree = "<group>"; };
+		5C199B5229C4C77100225DDF /* beagle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = beagle.h; sourceTree = "<group>"; };
+		5C199B5329C4C77100225DDF /* nxscxxdiscretematrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxscxxdiscretematrix.h; sourceTree = "<group>"; };
+		5C199B5429C4C77100225DDF /* nxstreesblock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxstreesblock.cpp; sourceTree = "<group>"; };
+		5C199B5529C4C77100225DDF /* EigenDecompositionCube.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EigenDecompositionCube.h; sourceTree = "<group>"; };
+		5C199B5629C4C77200225DDF /* nxsdefs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsdefs.h; sourceTree = "<group>"; };
+		5C199B5729C4C77200225DDF /* nxsmultiformat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxsmultiformat.cpp; sourceTree = "<group>"; };
+		5C199B5829C4C77200225DDF /* Plugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Plugin.cpp; sourceTree = "<group>"; };
+		5C199B5929C4C77200225DDF /* nxstaxaassociationblock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxstaxaassociationblock.cpp; sourceTree = "<group>"; };
+		5C199B5A29C4C77200225DDF /* BeagleImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeagleImpl.h; sourceTree = "<group>"; };
+		5C199B5B29C4C77200225DDF /* linalg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = linalg.h; sourceTree = "<group>"; };
+		5C199B5C29C4C77200225DDF /* UnixSharedLibrary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UnixSharedLibrary.cpp; sourceTree = "<group>"; };
+		5C199B5D29C4C77200225DDF /* nxsdiscretedatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsdiscretedatum.h; sourceTree = "<group>"; };
+		5C199B5E29C4C77200225DDF /* nxstoken.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxstoken.h; sourceTree = "<group>"; };
+		5C199B5F29C4C77200225DDF /* Precision.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Precision.h; sourceTree = "<group>"; };
+		5C199B6029C4C77200225DDF /* nxsunalignedblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsunalignedblock.h; sourceTree = "<group>"; };
+		5C199B6129C4C77300225DDF /* nxsexception.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxsexception.cpp; sourceTree = "<group>"; };
+		5C199B6229C4C77300225DDF /* nxscharactersblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxscharactersblock.h; sourceTree = "<group>"; };
+		5C199B6329C4C77300225DDF /* EigenDecomposition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EigenDecomposition.h; sourceTree = "<group>"; };
+		5C199B6429C4C77300225DDF /* nxsexception.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsexception.h; sourceTree = "<group>"; };
+		5C199B6529C4C77300225DDF /* BeagleCPUPlugin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BeagleCPUPlugin.cpp; sourceTree = "<group>"; };
+		5C199B6629C4C77300225DDF /* nxstreesblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxstreesblock.h; sourceTree = "<group>"; };
+		5C199B6729C4C77300225DDF /* nxsallocatematrix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsallocatematrix.h; sourceTree = "<group>"; };
+		5C199B6829C4C77300225DDF /* LibtoolSharedLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LibtoolSharedLibrary.h; sourceTree = "<group>"; };
+		5C199B6929C4C77300225DDF /* BeagleCPUImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeagleCPUImpl.h; sourceTree = "<group>"; };
+		5C199B6A29C4C77300225DDF /* nxsdatablock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsdatablock.h; sourceTree = "<group>"; };
+		5C199B6B29C4C77300225DDF /* nxsblock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxsblock.cpp; sourceTree = "<group>"; };
+		5C199B6C29C4C77400225DDF /* linalg.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = linalg.cpp; sourceTree = "<group>"; };
+		5C199B6E29C4C77400225DDF /* nxstoken.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxstoken.cpp; sourceTree = "<group>"; };
+		5C199B6F29C4C77400225DDF /* SharedLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SharedLibrary.h; sourceTree = "<group>"; };
+		5C199B7029C4C77400225DDF /* EigenDecompositionCube.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EigenDecompositionCube.hpp; sourceTree = "<group>"; };
+		5C199B7129C4C77400225DDF /* nxsmultiformat.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsmultiformat.h; sourceTree = "<group>"; };
+		5C199B7229C4C77400225DDF /* nxstaxablock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxstaxablock.cpp; sourceTree = "<group>"; };
+		5C199B7329C4C77400225DDF /* nxsutilcopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsutilcopy.h; sourceTree = "<group>"; };
+		5C199B7429C4C77400225DDF /* BeagleBenchmark.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeagleBenchmark.h; sourceTree = "<group>"; };
+		5C199B7529C4C77400225DDF /* EigenDecompositionSquare.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EigenDecompositionSquare.hpp; sourceTree = "<group>"; };
+		5C199B7629C4C77400225DDF /* nxstaxablock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxstaxablock.h; sourceTree = "<group>"; };
+		5C199B7729C4C77400225DDF /* BeagleCPU4StateImpl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeagleCPU4StateImpl.h; sourceTree = "<group>"; };
+		5C199B7829C4C77500225DDF /* nxsunalignedblock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxsunalignedblock.cpp; sourceTree = "<group>"; };
+		5C199B7929C4C77500225DDF /* BeagleCPUPlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeagleCPUPlugin.h; sourceTree = "<group>"; };
+		5C199B7A29C4C77500225DDF /* nxssetreader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxssetreader.h; sourceTree = "<group>"; };
+		5C199B7B29C4C77500225DDF /* SSEDefinitions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSEDefinitions.h; sourceTree = "<group>"; };
+		5C199B7C29C4C77500225DDF /* nxsblock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsblock.h; sourceTree = "<group>"; };
+		5C199B7D29C4C77500225DDF /* nxsdistancedatum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsdistancedatum.h; sourceTree = "<group>"; };
+		5C199B7E29C4C77500225DDF /* platform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = platform.h; sourceTree = "<group>"; };
+		5C199B7F29C4C77500225DDF /* nxsdistancesblock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxsdistancesblock.cpp; sourceTree = "<group>"; };
+		5C199B8029C4C77500225DDF /* nxscxxdiscretematrix.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxscxxdiscretematrix.cpp; sourceTree = "<group>"; };
+		5C199B8129C4C77500225DDF /* BeaglePlugin.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeaglePlugin.h; sourceTree = "<group>"; };
+		5C199B8229C4C77500225DDF /* beagle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = beagle.cpp; sourceTree = "<group>"; };
+		5C199B8329C4C77500225DDF /* nxsstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxsstring.h; sourceTree = "<group>"; };
+		5C199B8429C4C77600225DDF /* nxspublicblocks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nxspublicblocks.h; sourceTree = "<group>"; };
+		5C199B8529C4C77600225DDF /* BeagleCPUImpl.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BeagleCPUImpl.hpp; sourceTree = "<group>"; };
+		5C199B8629C4C77600225DDF /* nxsreader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxsreader.cpp; sourceTree = "<group>"; };
+		5C199B8729C4C77600225DDF /* nxssetreader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = nxssetreader.cpp; sourceTree = "<group>"; };
+		5C199C1729C4E09500225DDF /* libR.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libR.dylib; path = ../../../../../Library/Frameworks/R.framework/Versions/4.1/Resources/lib/libR.dylib; sourceTree = "<group>"; };
+		5C199C1B29C4E0E800225DDF /* libRInside.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libRInside.dylib; path = ../../../../../Library/Frameworks/R.framework/Versions/4.1/Resources/library/RInside/lib/libRInside.dylib; sourceTree = "<group>"; };
+		5C199C1E29C4E18A00225DDF /* parameters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = parameters.h; sourceTree = "<group>"; };
+		5C199C1F29C4E18B00225DDF /* ilike_header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ilike_header.h; sourceTree = "<group>"; };
+		5C199C2029C4E18B00225DDF /* distributions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = distributions.h; sourceTree = "<group>"; };
+		5C199C2129C4E18B00225DDF /* test_tree_model.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = test_tree_model.cpp; sourceTree = "<group>"; };
+		5C199C2229C4E18B00225DDF /* test_tree_model.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = test_tree_model.h; sourceTree = "<group>"; };
+		5C199C2429C4E1D500225DDF /* utils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = utils.h; sourceTree = "<group>"; };
+		5C199C2529C51F4800225DDF /* libhmsbeagle-cpu.40.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libhmsbeagle-cpu.40.so"; path = "stromboli_cpp/libhmsbeagle-cpu.40.so"; sourceTree = "<group>"; };
+		5C199C2829CBCEE500225DDF /* libhmsbeagle-cpu.40.so */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libhmsbeagle-cpu.40.so"; path = "stromboli_cpp/libs/libhmsbeagle-cpu.40.so"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C1999DC29C26F0800225DDF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C199C2D29CBCF6400225DDF /* libhmsbeagle-cpu.40.so in Frameworks */,
+				5C199C2B29CBCF4E00225DDF /* libhmsbeagle-cpu.40.so in Frameworks */,
+				5C199C2929CBCEE500225DDF /* libhmsbeagle-cpu.40.so in Frameworks */,
+				5C199C1829C4E09500225DDF /* libR.dylib in Frameworks */,
+				5C199C2C29CBCF6400225DDF /* libhmsbeagle-cpu.40.so in Frameworks */,
+				5C199C1C29C4E0E800225DDF /* libRInside.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C1999D629C26F0800225DDF = {
+			isa = PBXGroup;
+			children = (
+				5C1999E129C26F0800225DDF /* stromboli_cpp */,
+				5C1999E029C26F0800225DDF /* Products */,
+				5C199C1629C4E09500225DDF /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C1999E029C26F0800225DDF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C1999DF29C26F0800225DDF /* stromboli_cpp */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C1999E129C26F0800225DDF /* stromboli_cpp */ = {
+			isa = PBXGroup;
+			children = (
+				5C199B8229C4C77500225DDF /* beagle.cpp */,
+				5C199B5229C4C77100225DDF /* beagle.h */,
+				5C199B4429C4C77000225DDF /* BeagleBenchmark.cpp */,
+				5C199B7429C4C77400225DDF /* BeagleBenchmark.h */,
+				5C199B7729C4C77400225DDF /* BeagleCPU4StateImpl.h */,
+				5C199B4F29C4C77100225DDF /* BeagleCPU4StateImpl.hpp */,
+				5C199B6929C4C77300225DDF /* BeagleCPUImpl.h */,
+				5C199B8529C4C77600225DDF /* BeagleCPUImpl.hpp */,
+				5C199B6529C4C77300225DDF /* BeagleCPUPlugin.cpp */,
+				5C199B7929C4C77500225DDF /* BeagleCPUPlugin.h */,
+				5C199B5A29C4C77200225DDF /* BeagleImpl.h */,
+				5C199B8129C4C77500225DDF /* BeaglePlugin.h */,
+				5C199A0629C27B6900225DDF /* chain.h */,
+				5C199A0429C27B6900225DDF /* data.h */,
+				5C199A0B29C27B6900225DDF /* dirichlet_updater.h */,
+				5C199C2029C4E18B00225DDF /* distributions.h */,
+				5C199B6329C4C77300225DDF /* EigenDecomposition.h */,
+				5C199B5529C4C77100225DDF /* EigenDecompositionCube.h */,
+				5C199B7029C4C77400225DDF /* EigenDecompositionCube.hpp */,
+				5C199B4829C4C77000225DDF /* EigenDecompositionSquare.h */,
+				5C199B7529C4C77400225DDF /* EigenDecompositionSquare.hpp */,
+				5C199A0A29C27B6900225DDF /* exchangeability_updater.h */,
+				5C199A0929C27B6900225DDF /* gamma_shape_updater.h */,
+				5C199C1F29C4E18B00225DDF /* ilike_header.h */,
+				5C199B6829C4C77300225DDF /* LibtoolSharedLibrary.h */,
+				5C199A0029C27B6900225DDF /* likelihood.h */,
+				5C199B6C29C4C77400225DDF /* linalg.cpp */,
+				5C199B5B29C4C77200225DDF /* linalg.h */,
+				5C199A0829C27B6900225DDF /* lot.h */,
+				5C1999E229C26F0800225DDF /* main.cpp */,
+				5C1999FD29C27B6800225DDF /* model.h */,
+				5C199B4D29C4C77100225DDF /* ncl.h */,
+				5C1999FF29C27B6800225DDF /* node.h */,
+				5C199B6729C4C77300225DDF /* nxsallocatematrix.h */,
+				5C199B4329C4C77000225DDF /* nxsassumptionsblock.cpp */,
+				5C199B4229C4C77000225DDF /* nxsassumptionsblock.h */,
+				5C199B6B29C4C77300225DDF /* nxsblock.cpp */,
+				5C199B7C29C4C77500225DDF /* nxsblock.h */,
+				5C199B4729C4C77000225DDF /* nxscdiscretematrix.h */,
+				5C199B4629C4C77000225DDF /* nxscharactersblock.cpp */,
+				5C199B6229C4C77300225DDF /* nxscharactersblock.h */,
+				5C199B8029C4C77500225DDF /* nxscxxdiscretematrix.cpp */,
+				5C199B5329C4C77100225DDF /* nxscxxdiscretematrix.h */,
+				5C199B4C29C4C77100225DDF /* nxsdatablock.cpp */,
+				5C199B6A29C4C77300225DDF /* nxsdatablock.h */,
+				5C199B5629C4C77200225DDF /* nxsdefs.h */,
+				5C199B5D29C4C77200225DDF /* nxsdiscretedatum.h */,
+				5C199B7D29C4C77500225DDF /* nxsdistancedatum.h */,
+				5C199B7F29C4C77500225DDF /* nxsdistancesblock.cpp */,
+				5C199B5029C4C77100225DDF /* nxsdistancesblock.h */,
+				5C199B6129C4C77300225DDF /* nxsexception.cpp */,
+				5C199B6429C4C77300225DDF /* nxsexception.h */,
+				5C199B5729C4C77200225DDF /* nxsmultiformat.cpp */,
+				5C199B7129C4C77400225DDF /* nxsmultiformat.h */,
+				5C199B4E29C4C77100225DDF /* nxspublicblocks.cpp */,
+				5C199B8429C4C77600225DDF /* nxspublicblocks.h */,
+				5C199B8629C4C77600225DDF /* nxsreader.cpp */,
+				5C199B4129C4C77000225DDF /* nxsreader.h */,
+				5C199B8729C4C77600225DDF /* nxssetreader.cpp */,
+				5C199B7A29C4C77500225DDF /* nxssetreader.h */,
+				5C199B4529C4C77000225DDF /* nxsstring.cpp */,
+				5C199B8329C4C77500225DDF /* nxsstring.h */,
+				5C199B5929C4C77200225DDF /* nxstaxaassociationblock.cpp */,
+				5C199B5129C4C77100225DDF /* nxstaxaassociationblock.h */,
+				5C199B7229C4C77400225DDF /* nxstaxablock.cpp */,
+				5C199B7629C4C77400225DDF /* nxstaxablock.h */,
+				5C199B6E29C4C77400225DDF /* nxstoken.cpp */,
+				5C199B5E29C4C77200225DDF /* nxstoken.h */,
+				5C199B5429C4C77100225DDF /* nxstreesblock.cpp */,
+				5C199B6629C4C77300225DDF /* nxstreesblock.h */,
+				5C199B7829C4C77500225DDF /* nxsunalignedblock.cpp */,
+				5C199B6029C4C77200225DDF /* nxsunalignedblock.h */,
+				5C199B7329C4C77400225DDF /* nxsutilcopy.h */,
+				5C1999FE29C27B6800225DDF /* output_manager.h */,
+				5C199C1E29C4E18A00225DDF /* parameters.h */,
+				5C199B7E29C4C77500225DDF /* platform.h */,
+				5C199B5829C4C77200225DDF /* Plugin.cpp */,
+				5C199B4A29C4C77000225DDF /* Plugin.h */,
+				5C199B5F29C4C77200225DDF /* Precision.h */,
+				5C199A0E29C27B6900225DDF /* pwk.h */,
+				5C199B6F29C4C77400225DDF /* SharedLibrary.h */,
+				5C199A1029C27B6900225DDF /* split.h */,
+				5C199B4929C4C77000225DDF /* sse2neon.h */,
+				5C199B7B29C4C77500225DDF /* SSEDefinitions.h */,
+				5C199A0F29C27B6900225DDF /* statefreq_updater.h */,
+				5C199C2129C4E18B00225DDF /* test_tree_model.cpp */,
+				5C199C2229C4E18B00225DDF /* test_tree_model.h */,
+				5C199A0729C27B6900225DDF /* tree_length_updater.h */,
+				5C199A0329C27B6900225DDF /* tree_manip.h */,
+				5C199A0C29C27B6900225DDF /* tree_summary.h */,
+				5C199A0129C27B6900225DDF /* tree_updater.h */,
+				5C199A0229C27B6900225DDF /* tree.h */,
+				5C199B5C29C4C77200225DDF /* UnixSharedLibrary.cpp */,
+				5C199B4B29C4C77100225DDF /* UnixSharedLibrary.h */,
+				5C199A0D29C27B6900225DDF /* updater.h */,
+				5C199C2429C4E1D500225DDF /* utils.h */,
+				5C199A0529C27B6900225DDF /* xstrom.h */,
+			);
+			path = stromboli_cpp;
+			sourceTree = "<group>";
+		};
+		5C199C1629C4E09500225DDF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C199C2529C51F4800225DDF /* libhmsbeagle-cpu.40.so */,
+				5C199C2829CBCEE500225DDF /* libhmsbeagle-cpu.40.so */,
+				5C199C1B29C4E0E800225DDF /* libRInside.dylib */,
+				5C199C1729C4E09500225DDF /* libR.dylib */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C1999DE29C26F0800225DDF /* stromboli_cpp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C1999E629C26F0800225DDF /* Build configuration list for PBXNativeTarget "stromboli_cpp" */;
+			buildPhases = (
+				5C1999DB29C26F0800225DDF /* Sources */,
+				5C1999DC29C26F0800225DDF /* Frameworks */,
+				5C1999DD29C26F0800225DDF /* CopyFiles */,
+				5C199C1A29C4E09500225DDF /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = stromboli_cpp;
+			productName = stromboli_cpp;
+			productReference = 5C1999DF29C26F0800225DDF /* stromboli_cpp */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C1999D729C26F0800225DDF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Richard Everitt";
+				TargetAttributes = {
+					5C1999DE29C26F0800225DDF = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 5C1999DA29C26F0800225DDF /* Build configuration list for PBXProject "stromboli_cpp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C1999D629C26F0800225DDF;
+			productRefGroup = 5C1999E029C26F0800225DDF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C1999DE29C26F0800225DDF /* stromboli_cpp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C1999DB29C26F0800225DDF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C199B9329C4C77600225DDF /* nxsexception.cpp in Sources */,
+				5C199B9E29C4C77600225DDF /* nxssetreader.cpp in Sources */,
+				5C199B9829C4C77600225DDF /* nxstaxablock.cpp in Sources */,
+				5C199B8929C4C77600225DDF /* BeagleBenchmark.cpp in Sources */,
+				5C199B9629C4C77600225DDF /* linalg.cpp in Sources */,
+				5C199B9A29C4C77600225DDF /* nxsdistancesblock.cpp in Sources */,
+				5C199B9929C4C77600225DDF /* nxsunalignedblock.cpp in Sources */,
+				5C199B8E29C4C77600225DDF /* nxstreesblock.cpp in Sources */,
+				5C199B9429C4C77600225DDF /* BeagleCPUPlugin.cpp in Sources */,
+				5C199B8B29C4C77600225DDF /* nxscharactersblock.cpp in Sources */,
+				5C199B8D29C4C77600225DDF /* nxspublicblocks.cpp in Sources */,
+				5C199B9729C4C77600225DDF /* nxstoken.cpp in Sources */,
+				5C199B9C29C4C77600225DDF /* beagle.cpp in Sources */,
+				5C199B9B29C4C77600225DDF /* nxscxxdiscretematrix.cpp in Sources */,
+				5C199B8829C4C77600225DDF /* nxsassumptionsblock.cpp in Sources */,
+				5C199B8C29C4C77600225DDF /* nxsdatablock.cpp in Sources */,
+				5C199B9229C4C77600225DDF /* UnixSharedLibrary.cpp in Sources */,
+				5C199B9529C4C77600225DDF /* nxsblock.cpp in Sources */,
+				5C199B8A29C4C77600225DDF /* nxsstring.cpp in Sources */,
+				5C199B9129C4C77600225DDF /* nxstaxaassociationblock.cpp in Sources */,
+				5C1999E329C26F0800225DDF /* main.cpp in Sources */,
+				5C199B9029C4C77600225DDF /* Plugin.cpp in Sources */,
+				5C199C2329C4E18B00225DDF /* test_tree_model.cpp in Sources */,
+				5C199B8F29C4C77600225DDF /* nxsmultiformat.cpp in Sources */,
+				5C199B9D29C4C77600225DDF /* nxsreader.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C1999E429C26F0800225DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5C1999E529C26F0800225DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5C1999E729C26F0800225DDF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"FRAMEWORK_SEARCH_PATHS[arch=*]" = "";
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/library/BH/include/,
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/library/RcppEigen/include,
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/library/dqrng/include,
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/library/RcppParallel/include,
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/library/RcppArmadillo/include,
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/library/Rcpp/include,
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/library/RInside/include,
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/library/sitmo/include,
+					/Library/Frameworks/R.framework/Headers/,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(LOCAL_LIBRARY_DIR)/Frameworks/R.framework/Versions/4.1/Resources/library/RInside/lib",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks/R.framework/Versions/4.1/Resources/lib",
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/library/RcppParallel/lib,
+					"$(inherited)",
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/lib,
+					"$(PROJECT_DIR)/stromboli_cpp",
+					"$(PROJECT_DIR)/stromboli_cpp\\libs",
+					"$(PROJECT_DIR)/stromboli_cpp/libs",
+				);
+				"OTHER_LDFLAGS[arch=*]" = (
+					"-lblas",
+					"-llapack",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C1999E829C26F0800225DDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				"HEADER_SEARCH_PATHS[arch=*]" = (
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/library/BH/include/,
+					"$(PROJECT_DIR)/**",
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/library/RcppEigen/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(LOCAL_LIBRARY_DIR)/Frameworks/R.framework/Versions/4.1/Resources/library/RInside/lib",
+					"$(LOCAL_LIBRARY_DIR)/Frameworks/R.framework/Versions/4.1/Resources/lib",
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/library/RcppParallel/lib,
+					"$(inherited)",
+					/Library/Frameworks/R.framework/Versions/4.1/Resources/lib,
+					"$(PROJECT_DIR)/stromboli_cpp",
+					"$(PROJECT_DIR)/stromboli_cpp\\libs",
+					"$(PROJECT_DIR)/stromboli_cpp/libs",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C1999DA29C26F0800225DDF /* Build configuration list for PBXProject "stromboli_cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1999E429C26F0800225DDF /* Debug */,
+				5C1999E529C26F0800225DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C1999E629C26F0800225DDF /* Build configuration list for PBXNativeTarget "stromboli_cpp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C1999E729C26F0800225DDF /* Debug */,
+				5C1999E829C26F0800225DDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C1999D729C26F0800225DDF /* Project object */;
+}
