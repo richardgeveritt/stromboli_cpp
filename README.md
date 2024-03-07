@@ -1,3 +1,3 @@
 # stromboli_cpp
 
-Adaptation of strom (https://stromtutorial.github.io/) for online Bayesian inference.
+Adaptation of strom (https://stromtutorial.github.io/) for online Bayesian inference for the coalescent.
